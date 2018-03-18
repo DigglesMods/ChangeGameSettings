@@ -1,4 +1,4 @@
-{
+ï»¿{
 	"version" : "1.1",
 	"author" : "cech12",
 	
@@ -74,7 +74,7 @@
 			},
 			"description" : {
 				"en" : "Max experience of Diggles (2 means 200). Must be greater than MIN_EXP!",
-				"de" : "Maximale Erfahrungspunkte der Wiggle (2 meint 200). Muss größer als MIN_EXP sein!"
+				"de" : "Maximale Erfahrungspunkte der Wiggle (2 meint 200). Muss grÃ¶ÃŸer als MIN_EXP sein!"
 			}
 		}
 	]
