@@ -13,11 +13,11 @@ $with
 	proc sparetime_get_popsoll {civ} {
 		set populationFactor [expr {$print:POP_SOLL.0/22.0}]
 		if {$civ<0.15} {
-			return [expr {populationFactor*(7.0+$civ*20.0)}]
+			return [expr {$populationFactor*(7.0+$civ*20.0)}]
 		} elseif {$civ<0.4} {
-			return [expr {populationFactor*(5.2+$civ*32.0)}]
+			return [expr {$populationFactor*(5.2+$civ*32.0)}]
 		} else {
-			return [expr {populationFactor*([hmin [expr {10.0+$civ*20.0}] 22.0])}]
+			return [expr {$populationFactor*([hmin [expr {10.0+$civ*20.0}] 22.0])}]
 		}
 	}
 $end
