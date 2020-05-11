@@ -8,7 +8,7 @@ $put
 
 proc get_civ_state {owner} {
 	//get gnome list
-	set gnomes [obj_query $owner -class Zwerg -owner $owner -cloaked 1]
+	set gnomes [obj_query 0 -class Zwerg -owner $owner -cloaked 1]
 	if {$gnomes==0} {set gnomes {}}
 	//calculate sum of all exp of all gnomes
 	set exp_sum 0
